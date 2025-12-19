@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "engineai_lab"
+version = "0.1.0"
+description = "Custom RL environments for EngineAI robots in Isaac Lab"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "isaaclab",  # 依赖 Isaac Lab
+]
+
+[project.optional-dependencies]
+# 开发工具依赖
+dev = [
+    "black",
+    "flake8",
+    "pylint",
+]
+
+[tool.setuptools.packages.find]
+include = ["engineai_lab*"]

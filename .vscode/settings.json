@@ -1,0 +1,10 @@
+{
+    "python.analysis.extraPaths": [
+        "/home/qi/IsaacLab-2.1.0/_isaac_sim/kit/python/lib/python3.10/site-packages",
+        "/home/qi/IsaacLab-2.1.0/source/isaaclab",
+        "/home/qi/IsaacLab-2.1.0/source/isaaclab_assets",
+        "/home/qi/IsaacLab-2.1.0/source/isaaclab_mimic",
+        "/home/qi/IsaacLab-2.1.0/source/isaaclab_rl",
+        "/home/qi/IsaacLab-2.1.0/source/isaaclab_tasks"
+    ]
+}

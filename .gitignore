@@ -1,0 +1,5 @@
+logs/
+AGENTS.md
+engineai_lab.egg-info/
+*.pyc
+__pycache__/
